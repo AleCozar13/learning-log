@@ -22,8 +22,12 @@ class Entry(models.Model):
     date_added = models.DateTimeField(auto_now_add=True)
 
     class Meta:
+        """class"""
         verbose_name_plural = "entries"
 
     def __str__(self):
         """Return a simple string representing the entry."""
-        return f"{self.text[:50]}..."
+        if len(self.text) > 50:
+            return f"{self.text[:50]}..."
+        else:
+            return f"{self.text}"
