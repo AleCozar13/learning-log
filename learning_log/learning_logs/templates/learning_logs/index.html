@@ -1,3 +1,7 @@
-<p>Learning Log</p>
+<!--Tells Django which template inherit from.-->
+{% extends "learning_logs/base.html" %}
 
-<p>Learning Log helps you keep track of your learning, for any topic you're interesred in.</p>
+<!--Everything that are not inherit goes inside the content block.-->
+{% block content %}
+    <p>Learning Log helps you keep track of your learning for any topic you're interested in.</p>
+{% endblock content %}
