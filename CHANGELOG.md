@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
+## [0.1.2] Unreleased
+
+### Added
+- `learning_logs/template/learning_logs/topics.html` - Add new_topic button.
+- `learning_logs/template/learning_logs/new_topic.html` - Create new Topic page html.
+- `learning_logs/template/learning_logs/edit_entry.html` - Create edit entry page html.
+- `learning_logs/urls.py` - Specify pattern for new topic, new entry and edit an entry.
+- `learning_logs/forms.py` - Creates forms associated with Topic and Entry models.
+
+
 ## [0.1.1] 2025-02-16
 
 ### Changed
