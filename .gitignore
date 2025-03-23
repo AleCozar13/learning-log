@@ -34,3 +34,6 @@ env.bak/
 venv.bak/
 *.pyc
 *.pyo
+
+# SQLite
+*.sqlite3

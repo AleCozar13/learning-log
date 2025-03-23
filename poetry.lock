@@ -55,6 +55,18 @@ django = ">=4.2"
 jinja = ["jinja2 (>=3.0,<4)"]
 
 [[package]]
+name = "platformshconfig"
+version = "2.4.0"
+description = "Small helper to access Platform.sh environment variables."
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "platformshconfig-2.4.0-py3-none-any.whl", hash = "sha256:ff1e29719d2789f6d164e1abd42dbecec1c535e5e741161ba177cec34bfdd6de"},
+    {file = "platformshconfig-2.4.0.tar.gz", hash = "sha256:3eb95a514de57ce3341690fd3e0a61e6fa8c858a0793810a29fcce40691254a2"},
+]
+
+[[package]]
 name = "sqlparse"
 version = "0.5.3"
 description = "A non-validating SQL parser."
@@ -86,4 +98,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.13"
-content-hash = "8c484ba25b0f9041f88f762ecfa964eaa23a6be9abef0c2d071817882909428f"
+content-hash = "f11c0d3010244825f40f4e1c54ee6cc359d5d015da315887601bcdb15dbfabc1"
