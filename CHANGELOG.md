@@ -2,13 +2,29 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
+
+
+## [0.2.0] - 2025-03-23
+
+### Changed
+
+- `learning_logs/templates/ all templates` - Rewrite using Bootstrap template
+- `accounts/templates/login.html` - Rewrite using Bootstrap template
+
+
+### Added
+- Integrated Django - Bootstrap5 for improved UI styling and responsiveness.
+- Updated templates to use Bootstrap components and grid system.
+
+- `ll_project/settings.py` - Third party apps.
+
 
 ## [0.1.3] - 2025-03-23
 
 ### Changed
 - `learning_logs/views.py` - Added @login_required decorator also showing users only the topics that belong to them
-- `learning_logs/settings.py` - Implement log in to see, create, edit topics and entries
+- `ll_project/settings.py` - Implement log in to see, create, edit topics and entries
 
 
 ## [0.1.2] - 2025-03-23
@@ -28,7 +44,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - `ll_project/urls.py` - Added `learning_logs.urls.py` to the project.
 - `views.py` - Set up views for the home page and topics page.
 - `models.py` - Added `Topic` and `Entry` models.
-- `settings.py` - Registered `learning_logs` as an installed app.
+- `ll_project/settings.py` - Registered `learning_logs` as an installed app.
 
 ### Added
 - `learning_logs/urls.py` - Defined URL pattern for the home page.
