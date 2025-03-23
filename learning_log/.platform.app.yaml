@@ -31,6 +31,9 @@ mounts:
 hooks:
     build: |
         echo "Current directory: $(pwd)"
+        pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install -r requirements_remote.txt
 
         mkdir logs
         python manage.py collectstatic
