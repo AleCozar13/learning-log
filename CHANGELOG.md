@@ -4,8 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
+## [0.1.3] - 2025-03-23
 
-## [0.1.2] - 2025-03-23 
+### Changed
+- `learning_logs/views.py` - Added @login_required decorator also showing users only the topics that belong to them
+- `learning_logs/settings.py` - Implement log in to see, create, edit topics and entries
+
+
+## [0.1.2] - 2025-03-23
 
 ### Added
 - `learning_logs/templates/learning_logs/topics.html` - Added "New Topic" button.
