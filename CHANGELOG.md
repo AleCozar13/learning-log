@@ -4,7 +4,8 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
-## [0.1.2] - Unreleased
+
+## [0.1.2] - 2025-03-23
 
 ### Added
 - `learning_logs/templates/learning_logs/topics.html` - Added "New Topic" button.
@@ -12,6 +13,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - `learning_logs/templates/learning_logs/edit_entry.html` - Created HTML template for the "Edit Entry" page.
 - `learning_logs/urls.py` - Defined URL patterns for creating a new topic, adding a new entry, and editing an entry.
 - `learning_logs/forms.py` - Created forms for the `Topic` and `Entry` models.
+
+- `accounts` - New app, contains all related to work with users.
 
 ## [0.1.1] - 2025-02-16
 
