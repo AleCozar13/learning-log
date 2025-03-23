@@ -4,14 +4,6 @@ type: "python:3.12"
 relationships:
     database: "db:postgresql"
 
-# Add the services section to define the PostgreSQL service
-services:
-    db:
-        type: postgresql:13  # You can change the version if needed
-        disk: 512
-        config:
-            database: "learning_log"
-
 # The configuration of the app when it's exposed to the web.
 web:
     upstream:
