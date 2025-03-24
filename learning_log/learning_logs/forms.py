@@ -12,7 +12,7 @@ class TopicForm(forms.ModelForm):
         """Simple Topic form"""
 
         model = Topic
-        fields = ["text"]
+        fields = ["text", "public"]
         labels = {"text": ""}
 
 
@@ -24,4 +24,5 @@ class EntryForm(forms.ModelForm):
 
         model = Entry
         fields = ["text"]
+        labels = {"text": ""}
         widgets = {"text": forms.Textarea(attrs={"cols": 80})}
