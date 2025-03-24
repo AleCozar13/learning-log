@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
+## [0.3.0] - 2025-03-24
+
+### Added
+- Configured deployment to **Platform.sh**.
+- Added necessary configuration files for **Platform.sh** deployment.
+- Updated settings to support production environment.
+
+### Changed
+- Adjusted database settings to align with **Platform.sh** environment.
+- Modified static file handling to work with the deployment setup.
+
 
 ## [0.2.0] - 2025-03-23
 
