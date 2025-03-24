@@ -37,19 +37,23 @@ Learning Log is a web app built with Django that allows users to track topics of
 1. **Clone the Repository**  
    ```sh
    git clone https://github.com/your-username/learning-log.git
-   cd learning-log```
+   cd learning-log
 
 2. **Install dependencies with poetry**
 
-```poetry install```
+    ```sh
+    poetry install
 
 3. **Run Migrations**
 
-```poetry run python3 manage.py migrate```
+    ```sh
+    poetry run python3 manage.py migrate
 
 4. **Create a Superuser**
-```poetry run python3 manage.py createsuperuser```
+    ```sh
+    poetry run python3 manage.py createsuperuser
 
 5. **Start the Development Server**
 
-```poetry run python3 manage.py runserver```
+    ```sh
+    poetry run python3 manage.py runserver
