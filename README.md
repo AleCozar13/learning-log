@@ -1,12 +1,59 @@
-# Learning Log
+# 📘 Learning Log  
 
-🚧 **This project is currently a work in progress.** 🚧
+🚧 **Project Status: In Progress** 🚧  
 
-This repository is under active development, and some features may not be fully implemented yet.
-A complete README will be added once the project is finished.
+Learning Log is a web app built with Django that allows users to track topics of interest and record their learning journey through journal entries.  
 
-Stay tuned for updates!
+---
 
-## Resume
+## 🚀 Features  
 
-Web app called Learning Log that allows users to log the topics they’re interested in and make journal entries as they learn about each topic.
+### 🏗️ Core Functionality  
+- **Topic & Entry Management** – Users can create topics and add journal entries.  
+- **Admin Interface** – Manage data through Django's built-in admin panel.  
+
+### 🔐 User Authentication  
+- **Secure User Accounts** – Login, logout, and registration via Django’s UserCreationForm.  
+- **Access Control** – Certain pages are restricted to logged-in users using `@login_required`.  
+- **User-Specific Data** – Each user sees only their own topics and entries.  
+
+### 🎨 User Experience & Design  
+- **Responsive UI** – Styled with Bootstrap for a clean, mobile-friendly design.  
+- **Consistent Navigation** – Includes a navbar and structured templates for a seamless experience.  
+
+### 🌍 Deployment & Security  
+- **Live Deployment** – Hosted on a remote server for online accessibility.  
+- **Production-Ready** – `DEBUG = False` with custom error pages for security.  
+
+---
+
+## 🛠️ Installation & Setup (Using Poetry)  
+
+### Prerequisites  
+- Python 3.x  
+- [Poetry](https://python-poetry.org/docs/#installation)  
+
+### Steps  
+1. **Clone the Repository**  
+   ```sh
+   git clone https://github.com/your-username/learning-log.git
+   cd learning-log
+
+2. **Install dependencies with poetry**
+
+    ```sh
+    poetry install
+
+3. **Run Migrations**
+
+    ```sh
+    poetry run python3 manage.py migrate
+
+4. **Create a Superuser**
+    ```sh
+    poetry run python3 manage.py createsuperuser
+
+5. **Start the Development Server**
+
+    ```sh
+    poetry run python3 manage.py runserver
