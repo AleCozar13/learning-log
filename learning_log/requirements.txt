@@ -1,5 +1,6 @@
 asgiref==3.8.1
-Django==5.1.6
+Django==5.2
 django-bootstrap5==25.1
+-e git+ssh://git@github.com/AleCozar13/learning-log.git@42bfbaf6819956a1a159f1a918f0f6198dbcaaf2#egg=learning_log
 platformshconfig==2.4.0
 sqlparse==0.5.3
